@@ -4,7 +4,7 @@ const int ledPin = 2;
 // 记录上一次LED状态改变的时间
 unsigned long previousMillis = 0;
 
-const long interval = 500; // 1Hz = 1000ms周期，半周期为500ms
+const unsigned long interval = 500; // 1Hz = 1000ms周期，半周期为500ms
 
 // LED当前状态
 bool ledState = LOW;
